@@ -17,3 +17,6 @@ console.log(booleans)
 
 console.log(fruits[0]) // this would get the fruit at position 0, which is the first one since arrays are zero-indexed. 
 
+//If I wanted to add the values of the 3rd and 4th number, 3 + 4, I would use index[2] and index [3] which would look like: 
+
+console.log(numbers[2]+numbers[3]);
