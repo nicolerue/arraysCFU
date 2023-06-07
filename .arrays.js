@@ -5,9 +5,15 @@ var booleans = [true, false, false, true];
 fruits.push("grapes");
 console.log(fruits);
 
-numbers.slice(0,1); // expecting output = 3,4
+var newNums = numbers.slice(2,3); // 
 console.log(numbers);
+console.log(newNums)
 
 booleans.unshift("true"); // expecting two trues at the start 
 console.log(booleans)
+
+//INDEX POSITIONING
+//If I wanted to find the first value in the fruits array, which is apple I would do: 
+
+console.log(fruits[0]) // this would get the fruit at position 0, which is the first one since arrays are zero-indexed. 
 
